@@ -20,7 +20,7 @@ const DonacionesSchema = ({
         required:[true, 'La cantidad es requerida']
     },
     gramaje:{
-        type:Number
+        type:String
     },
     tipo:{
         type:String,

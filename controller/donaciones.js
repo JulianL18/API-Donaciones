@@ -36,6 +36,7 @@ const putDonacion = async (req, res) => {
         idDonante,
         tipoDonacion,
         cantidad,
+        gramaje,
         tipo,
         fechaDonado,
         fechaRegistroDonacion
@@ -47,6 +48,7 @@ const putDonacion = async (req, res) => {
             idDonante: idDonante,
             tipoDonacion: tipoDonacion,
             cantidad: cantidad,
+            gramaje: gramaje,
             tipo: tipo,
             fechaDonado: fechaDonado,
             fechaRegistroDonacion: fechaRegistroDonacion
