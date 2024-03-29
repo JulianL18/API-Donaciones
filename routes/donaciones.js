@@ -6,7 +6,7 @@ const{getDonacion, postDonacion, putDonacion, deleteDonacion} = require('../cont
 
 route.get('/', getDonacion)
 route.post('/', postDonacion)
-route.put('/', putDonacion)
-route.delete('/', deleteDonacion)
+route.put('/:idDonacion', putDonacion)
+route.delete('/:idDonacion', deleteDonacion)
 
 module.exports = route

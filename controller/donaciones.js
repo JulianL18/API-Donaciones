@@ -64,7 +64,7 @@ const putDonacion = async (req, res) => {
   };
 
 const deleteDonacion = async (req, res) => {
-    const {idDonacion} = req.body
+    const {idDonacion} = req.params;
     let mensaje = 'Eliminación exitosa'
     try {
         const donante = await donacion.findOneAndDelete({idDonacion: idDonacion})
